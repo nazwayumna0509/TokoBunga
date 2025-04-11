@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Produk - Spring Bloomyz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background: url('bg.jpeg');
+      color: #d803038a;
+      padding: 30px;
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 28px;
+      color: #f43535a5;
+    }
+
+    nav {
+      background-color: #ffe4e1;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #d63384;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff1493;
+    }
+
+    .produk-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .produk-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .produk-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .produk-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .produk-card h4 {
+      margin: 15px 0 5px;
+      color: #d63384;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .produk-card p {
+      margin-bottom: 15px;
+      color: #666;
+    }
+
+    footer {
+      position: relative;
+      background: url('bg.jpeg') center center / cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+
+    footer::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    footer p {
+      position: relative;
+      z-index: 2;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Spring Bloomyz</h1>
+    <h3>Find the beautiful flower <br>
+        bouquet of your choice 💐</h3>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="produk.html">Product</a>
+    <a href="tentang.html">About Us</a>
+    <a href="kontak.html">Contact</a>
+  </nav>
+
+  <section class="produk-container">
+    <div class="produk-card">
+      <img src="buketmawar.jpeg" alt="Bouquet of Roses">
+      <h4>Bouquet of Pink Roses</h4>
+      <p>Rp 520.000</p>
+    </div>
+    <div class="produk-card">
+      <img src="bungatulip.jpeg" alt="Tulip Pink">
+      <h4>Tulip Pink</h4>
+      <p>Rp 550.000</p>
+    </div>
+    <div class="produk-card">
+      <img src="bungadaisy.jpeg" alt="Daisy Fresh">
+      <h4>Daisy Fresh</h4>
+      <p>Rp 575.000</p>
+    </div>
+    <div class="produk-card">
+      <img src="lilies.jpeg" alt="Pink Delight">
+      <h4>Pink Delight</h4>
+      <p>Rp 585.000</p>
+    </div>
+    <div class="produk-card">
+        <img src="sunkisssed.jpeg" alt="sunflower">
+        <h4>Sunkissed</h4>
+        <p>Rp 580.000</p>
+      </div>
+      <div class="produk-card">
+        <img src="Gerbera Daisy Bouquet.jpeg" alt="Gerbera">
+        <h4>Pinkie Bloom</h4>
+        <p>Rp 500.000</p>
+      </div>
+      <div class="produk-card">
+        <img src="graduation pink bouquet.jpeg" alt="gradpink">
+        <h4>Gradie Bouquet</h4>
+        <p>Rp 650.000</p>
+      </div>
+      <div class="produk-card">
+        <img src="Teddy bear bouquet.jpeg" alt="teddy">
+        <h4>Gradie Violet</h4>
+        <p>Rp 600.000</p>
+      </div>
+    <!-- Tambahkan produk lain jika perlu -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Spring Bloomyz</p>
+  </footer>
+
+</body>
+</html>
